@@ -1,5 +1,7 @@
 $(document).ready(function () {
-    
+
+    eel.init()()
+
     $('.text').textillate({
         loop: true,
         sync: true,
@@ -9,6 +11,6 @@ $(document).ready(function () {
         out: {
             effect: "bounceOut",
         },
-    });
 
-});
+    });
+}):
